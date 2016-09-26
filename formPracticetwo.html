@@ -10,10 +10,18 @@
 
 <form>
   <label for="first">First Name:</label>
-  <input id="first" type="text" placeholder="john">
+  <input name="first" id="first" type="text" placeholder="john" required>
   <label for="last">Last Name:</label>
-  <input  id="last" type="text" placeholder="smith">
+  <input  name="last" id="last" type="text" placeholder="smith" required>
 
+  <div>
+    <label for="male">male</label>
+    <input id="male" name="gender" type="radio" value="male">
+    <label for="female">female</label>
+    <input id="female" name="gender" type="radio" value="female">
+    <label for="other">other</label>
+    <input name="gender" type="radio" value="other">
+  </div>
 </form>
 
 
